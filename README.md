@@ -14,13 +14,13 @@ Example #1
 package main
 
 import (
-	"fmt"
-	"github.com/ewwwwwqm/jsonresp"
+    "fmt"
+    "github.com/ewwwwwqm/jsonresp"
 )
 
 func main() {
-	obj := jsonresp.Output{"name": "Max"}
-	fmt.Println(obj)
+    obj := jsonresp.Output{"name": "Max"}
+    fmt.Println(obj.String())
 }
 ```
 
