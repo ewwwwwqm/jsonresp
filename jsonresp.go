@@ -1,7 +1,7 @@
 // Package for generating JSON output from structs.
 package jsonresp
 
-import(
+import (
 	"encoding/json"
 )
 

@@ -8,7 +8,7 @@ import (
 
 func ExampleOutput() {
 	obj := jsonresp.Output{"name": "Max"}
-	
+
 	fmt.Println(obj.String())
 	// Output:
 	// {"name":"Max"}
