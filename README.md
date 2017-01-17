@@ -1,14 +1,11 @@
-JSONResp
-========
+# JSONResp
 
 Package for generating JSON output from structs
 
-Usage
------
+## Usage
 ``` $ go get github.com/ewwwwwqm/jsonresp ```
 
-Example #1
-----------
+### Example #1
 ``` main.go ```
 ```go
 package main
@@ -29,8 +26,7 @@ Output:
 {"name":"Max"}
 ```
 
-Example #2
-----------
+### Example #2
 ``` main.go ```
 ```go
 package main
